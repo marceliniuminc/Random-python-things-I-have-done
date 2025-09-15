@@ -1,20 +1,18 @@
 #use pygame
 
+import pygame
 
+#Other imports
 
-#Rpg game
+import time
 
-import tkinter
+#The game parts
 
-#Window:
+pygame.init()
+display = pygame.display.set_mode((1000,500))
 
-window = tkinter.Tk()
-window.title("RPG game")
-window.geometry("720x1290")
+while True:
+    time.sleep(1)
 
-def onClick():
-    print("Start")
-
-start = tkinter.Button(window, text="Start", command=onClick)
-start.pack()
-window.mainloop()
+#This was a test
+#Learn pygame
