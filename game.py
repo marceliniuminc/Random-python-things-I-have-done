@@ -1,3 +1,7 @@
+#use pygame
+
+
+
 #Rpg game
 
 import tkinter
